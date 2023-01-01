@@ -2,6 +2,7 @@
 name = "trpl"
 version = "0.1.0"
 edition = "2021"
+default-run = "1-3"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -11,3 +12,7 @@ edition = "2021"
 [[bin]]
 name = "1-2"
 path = "src/1-2/main.rs"
+
+[[bin]]
+name = "1-3"
+path = "src/main.rs"
